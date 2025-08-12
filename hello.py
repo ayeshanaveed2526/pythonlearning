@@ -1,3 +1,17 @@
-print("Hello, World!")
-print("This is a simple Python script.")
-print("It prints a greeting message to the console.")
+print('''
+Twinkle twinkle little star.
+How I wonder what you are.
+Up above the world so high.
+Like a diamond in the sky.
+Twinkle twinkle little star.
+How I wonder what you are.
+
+Twinkle twinkle little star.
+How I wonder what you are.
+Up above the world so high.
+Like a diamond in the sky.
+Twinkle twinkle little star.
+How I wonder what you are.
+'''
+
+)
