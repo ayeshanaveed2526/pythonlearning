@@ -5,6 +5,9 @@ print(t)
 b=0.3748
 t= type(b)
 print(t)
-c="ayesha"
+c="89.48"
 t= type(c)
 print(t)
+d= float(c)
+print(d)
+print(type(d))
