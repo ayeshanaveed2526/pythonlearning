@@ -11,3 +11,6 @@ nameshort=name[0:6] #start from 0 and include all values from 1to 3 and excluded
 print(nameshort)
 namelength=len(name) #get the length of the string
 print(namelength)
+#we can print a letter seperately
+char=name[3]
+print(char)
