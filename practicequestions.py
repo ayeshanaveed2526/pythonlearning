@@ -10,6 +10,11 @@
 # b= int(input("enter b:"))
 # print("your  values are:", a>b)
 #2-write a program to found average of two number entered by user
-a= int(input("enter no 1:"))
-b=int(input("enter no 2:"))
-print("the average of two values are",  a+b/2)
+# a= int(input("enter no 1:"))
+# b=int(input("enter no 2:"))
+# print("the average of two values are",  (a+b)/2)
+# square of a number
+number = int(input("Enter a number: "))
+print("Square of", number, "is", number*number)
+print("Square of", number, "is", number**2)
+
