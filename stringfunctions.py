@@ -17,3 +17,6 @@ print(name.upper())
 print(name.find("sha"))
 #for count any alphabet
 print(name.count("a"))
+#ESCAPE FUNCTION
+#if we want to print new line in a string
+print("Hello\nWorld")
