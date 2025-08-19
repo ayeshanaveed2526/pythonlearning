@@ -7,6 +7,7 @@
 # Values can be any type (list, string, int, etc.).
 
 # Dictionaries are written using curly braces { }.
+d={} #empty dictionary
 result={
     "name": "Ayesha",
     "age": 20,
