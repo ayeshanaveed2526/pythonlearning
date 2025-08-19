@@ -27,3 +27,9 @@ students={
     "student2": {"name": "Ali", "age": 22}
 }
 print(students)
+#Dictionary Methods
+print(result.keys())  # Returns a view of keys
+print(result.values())  # Returns a view of values
+print(result.items())  # Returns a view of key-value pairs
+result.update({"marks":88})
+print(result)
