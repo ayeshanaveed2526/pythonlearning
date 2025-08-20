@@ -13,3 +13,12 @@ while(i<len(l)):
     u=1
     for u in range(5):
         print(u)
+
+        print("Inner loop ended")
+# while loop with break
+i=0
+while(i<10):
+    print(i)
+    i+=1
+    if(i==5):
+        break
