@@ -30,7 +30,7 @@
 marks1 =int(input("Enter your marks of English: "))
 total=100
 percentage=(marks1/total)*100
-if(percentage>=40):
+if(percentage>=34):
     print("You are passed")
 elif(percentage<=33):
     print("You are failed")
@@ -39,7 +39,7 @@ else:
 marks1 =int(input("Enter your marks of Maths: "))
 total=100
 percentage=(marks1/total)*100
-if(percentage>=40):
+if(percentage>=34):
     print("You are passed")
 elif(percentage<=33):
     print("You are failed")
@@ -48,7 +48,7 @@ else:
 marks1 =int(input("Enter your marks of Urdu: "))
 total=100
 percentage=(marks1/total)*100
-if(percentage>=40):
+if(percentage>=34):
     print("You are passed")
 elif(percentage<=33):
     print("You are failed")
