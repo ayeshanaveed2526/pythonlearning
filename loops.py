@@ -10,3 +10,6 @@ i=0
 while(i<len(l)):
     print(l[i])
     i+=1
+    u=1
+    for u in range(5):
+        print(u)
