@@ -32,10 +32,19 @@
 # print("Reversed string is ", reversed_string)
 
 # Count how many vowels appear in a user-input string.
-a = str(input("Enter a string: "))
-vowels = "aeiouAEIOU"
-count = 0   
-for char in a:
-    if char in vowels:
-        count +=1
-print("Number of vowels in the string is ", count)
+# a = str(input("Enter a string: "))
+# vowels = "aeiouAEIOU"
+# count = 0   
+# for char in a:
+#     if char in vowels:
+#         count +=1
+# print("Number of vowels in the string is ", count)
+# Find Maximum Without max()
+# Write a program that finds the largest number in a list without using max().
+numbers =[1,4,5,3,14,606,13443,23]
+assumemax=numbers[0]
+for num in numbers:
+    if num>assumemax:
+        assumemax=num # update if a larger number is found
+print("The largest number is ", assumemax)
+
